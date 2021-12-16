@@ -1,0 +1,34 @@
+/*===============================================
+1.1 Bootstrap Customize
+ ===============================================*/
+
+ $body-color:  $color;
+ $link-color: #121213;
+ $primary: #c55e3e;
+ $secondary: $color;
+ $border-color: #757575;
+ $text-muted: #979797;
+ $font-family-sans-serif: $body-font;
+ $font-size-base: 1.063rem;
+ $display-font-weight: 700;
+ 
+ 
+ // ##########################################
+ //   OPTION 1: 
+ // - IMPORT BOOTSTRAP ( The entire bootstrap with everything)
+ // ##########################################
+ @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+ 
+ 
+ // ##########################################
+ //   OPTION 2: 
+ // - IMPORT IMPORT ONLY THE PART OF BOOTSTRAP YOU WANT TO USE
+ // ##########################################
+ 
+ // @import "../node_modules/bootstrap/scss/functions";
+ // @import "../node_modules/bootstrap/scss/variables";
+ // @import "../node_modules/bootstrap/scss/mixins";
+ 
+ // Include any optional Bootstrap components as you like
+ // @import "../node_modules/bootstrap/scss/root";
+ // @import "../node_modules/bootstrap/scss/reboot";

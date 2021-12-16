@@ -1,0 +1,18 @@
+ // IMPORT FONT
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&family=Roboto:wght@400;700&display=swap');
+
+ // IMPORT BASE
+ @import 'media-quaries';
+ @import 'variable';
+ @import 'bs-custom';
+ @import 'variable';
+ @import 'mixins';
+ @import 'typography';
+ @import 'theme';
+ @import 'header';
+
+// IMPORT  COMPONENT 
+ @import 'components/buttons';
+
+ // IMPORT THE SECTIONS 
+ @import 'sections/banner';

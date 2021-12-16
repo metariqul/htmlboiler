@@ -1,0 +1,30 @@
+
+.btn {
+    padding: 8px 32px;
+    font-family: $heading-font;
+    color: $white;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: $theme-color;
+    border: none;
+
+    &.full {
+        width: 100%;
+    }
+
+    &:hover,
+    &:focus,
+    &:visited {
+        color: $white;
+    }
+
+    @include tablet {
+        padding: 15px 35px;
+        font-size: 18px;
+    }
+
+    @include mobile {
+        padding: 14px 30px;
+        font-size: 18px;
+    }
+}
